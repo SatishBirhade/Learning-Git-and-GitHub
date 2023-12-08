@@ -1,0 +1,14 @@
+///////////////////////////////////////////////////////
+**************************************************
+lets learn  git
+**************************************************
+///////////////////////////////////////////////////////
+
+git restore --staged "filename" -------------use to unstage the file
+git restore .    ----------this command used to rstore changes made in file
+
+.gitignore ---------this file used for maintion the .extention to be hide from git 
+ 
+
+git config --global core.excludesfile "file" --------------its create own hidden file extention
+
