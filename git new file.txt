@@ -1,0 +1,84 @@
+=====================================================================================
+========================== GIT =====================================================
+=================================================================================
+
+1) git --version      (used to check git version)
+
+2) git config --global user.name "smb"     (To set username)
+   git config --global user.name                      (to check username)
+
+3) git config --global user.email "satish@gmail.com"   (To set user email)
+   git config --global user.email                      (to check user email id)
+
+
+4) git config --global --edit         (by using this command we can change the username and emild id by using Vi editor)
+
+
+5) git init      (by using this command git will track folder) after that [ls -a] command shows .git file
+
+6) git status     (giver information about whats modification/changes done inside this repository)
+
+7) git add smb.java     (this command made file for tracked)
+
+************* [working directory] --> git add --> [Staging area] --> git commit --> [repository] *************
+
+if we have 30 40 file and we wants to commit only 20 file s0 we add that file into the staging area and after that we commit that files
+
+8) git commit -m "first commit"   (the commit moves file from staging to repository, -m means message, message should be meaningfull)
+
+9) git log     (gives info about commited logs done by person with hash code)
+
+10)  git checkout <hashcode>  (this command used for versioning control with using hash code shows in git log command ) (its also userd to move branch to branch)
+
+11) git checkput master   (this command moves pointer to master node)
+
+
+************** [master branch] ---> [devloper branch] ---> [feature branch] ***************
+
+12) git branch   (to checkout branch curent status)
+
+13) git branch <branch name>    (this command is used to create new branch)
+
+13A) git branch -M <new branch name>  (this command is used to rename the branch name)
+
+13) git checkout -b "branch name"  (this command is used to create new branch and also checkout this branch)
+
+14) git merge <branch name to added>   (this command used to combine feature of one branch to the another branch. but firstly we need to checkout the destination branch)
+
+15) touch .gitignore   (this command is used to make file untracked from git like hidden file. we need to give file name inside this .gitignore file)
+
+
+==============================================================================================================
+ ================================================GIT HUB =======================================================
+  ================================================================================================================
+
+16) git remote   (for check where you connect)
+
+17) git remote add <alies> <HTTPS LINK>  (this command is used to pull or push the data from local repository to remote repository coonection)
+
+18) git remote -v   (this command is used to check fetch and push origin name)
+
+19) git push -u <repository name> <branch name>   (this command is used to push to code into the repo) (if we want to push another branch then  firstly checkout those  branch and made push command)
+
+
+********************************
+For the open source controbution we neet to make the fork request from the another person repository. after that we need to clone this repository by using
+
+git clone <https link>
+
+after that we can make him the pull request.
+
+********************************
+
+
+
+git remote rename <old name> <new name>  (this command is used to chance remote name in git)
+
+git pull === pull the all data
+
+ 
+
+
+
+
+
