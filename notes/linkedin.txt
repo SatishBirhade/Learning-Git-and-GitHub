@@ -12,3 +12,21 @@ git restore .    ----------this command used to rstore changes made in file
 
 git config --global core.excludesfile "file" --------------its create own hidden file extention
 
+********************************
+delete file
+
+git rm "filename" ------------------it delete file and after we check status it commited in stagging area
+
+git restore -S .  ----------this command restore the deleted file from staging to working directory
+
+git restore .       ------------file comes to working directory in system
+
+*********************************
+rename file
+
+git mv "oldfilename" "newfilename" -------------------used for rename the file
+
+*******************************
+difference
+
+git diff --------------this command shows the difference made in file 
