@@ -34,7 +34,7 @@ git diff --------------this command shows the difference made in file
 ******************************************
 changing histroy
 #amend#
-git commit --amend  -------this command helps user to edit the commit message
+git commit --amend  -------this command helps user to edit the commit message  (and if you forgot to add some file in commit then its enable to edit the commit )
 
 git log --oneline ----------------this command gives the short one line logs with log id
 
@@ -56,3 +56,17 @@ git rebase -i --root  -----------this command used to rearrang the commit sequan
 branches
 
 git branch 
+
+git switch -c "newbranch name" ------------create and checkout new branch
+
+git branch -d "branch name" -------to delete branch
+
+git switch "branchname"  -------------to checkout new branch
+
+********************************************
+
+
+
+
+
+
