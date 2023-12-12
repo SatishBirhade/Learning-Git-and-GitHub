@@ -30,3 +30,29 @@ git mv "oldfilename" "newfilename" -------------------used for rename the file
 difference
 
 git diff --------------this command shows the difference made in file 
+
+******************************************
+changing histroy
+#amend#
+git commit --amend  -------this command helps user to edit the commit message
+
+git log --oneline ----------------this command gives the short one line logs with log id
+
+git reset "log id" ------------ this command used to reset the commit without being data codified in next commit  / unstage the changes after reset
+
+
+git reset --hard "log id"  -------------this command reset the time to the specific checkpoint and delete the data is modified its not recomanded
+
+#rebasing#
+
+git rebase --interactive
+
+git rebase -i head~3  -----------opens last 3 commit made 
+
+git rebase -i --root  -----------this command used to rearrang the commit sequance
+
+***********************************************
+
+branches
+
+git branch 
