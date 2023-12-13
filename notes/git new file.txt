@@ -5,10 +5,10 @@
 1) git --version      (used to check git version)
 
 2) git config --global user.name "smb"     (To set username)
-   git config --global user.name                      (to check username)
+   git config user.name                      (to check username)
 
 3) git config --global user.email "satish@gmail.com"   (To set user email)
-   git config --global user.email                      (to check user email id)
+   git config user.email                      (to check user email id)
 
 
 4) git config --global --edit         (by using this command we can change the username and emild id by using Vi editor)
@@ -41,6 +41,8 @@ if we have 30 40 file and we wants to commit only 20 file s0 we add that file in
 
 13A) git branch -M <new branch name>  (this command is used to rename the branch name)
 
+git branch -d "branchname"  (used to delete branch)
+
 13) git checkout -b "branch name"  (this command is used to create new branch and also checkout this branch)
 
 14) git merge <branch name to added>   (this command used to combine feature of one branch to the another branch. but firstly we need to checkout the destination branch)
@@ -59,6 +61,8 @@ if we have 30 40 file and we wants to commit only 20 file s0 we add that file in
 18) git remote -v   (this command is used to check fetch and push origin name)
 
 19) git push -u <repository name> <branch name>   (this command is used to push to code into the repo) (if we want to push another branch then  firstly checkout those  branch and made push command)
+
+20) git push --all  (this command is used to all branches to github)
 
 
 ********************************

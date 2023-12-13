@@ -38,7 +38,7 @@ git commit --amend  -------this command helps user to edit the commit message  (
 
 git log --oneline ----------------this command gives the short one line logs with log id
 
-git reset "log id" ------------ this command used to reset the commit without being data codified in next commit  / unstage the changes after reset
+git reset "log id" ------------ this command used to reset the commit without being data modified in next commit  / unstage the changes after reset
 
 
 git reset --hard "log id"  -------------this command reset the time to the specific checkpoint and delete the data is modified its not recomanded
@@ -65,7 +65,27 @@ git switch "branchname"  -------------to checkout new branch
 
 ********************************************
 
+merge conflicts
 
+********************************************
+stashing code
+
+git stash --------bring to normal state means restore the settings that we made
+
+git stash list  ----------------list the all stashes we made
+
+git stash apply "number in stash list"   -------------used to apply the stash using the number ex 0,1
+
+git stash pop ------------its delete the stash previously created
+
+##git clean#
+
+git clean -n           -------------dry run
+
+git clean -d   -------------directories
+
+git clean -f  ----------force          (removes directories and file use command git clean -df )
+ 
 
 
 
